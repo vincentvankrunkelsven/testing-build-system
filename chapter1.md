@@ -89,7 +89,7 @@ _, ints = np.unique(movies.genre, return_inverse = True)
 _, ints = np.unique(movies.genre, return_inverse = True)
 
 # Import matplotlib.pyplot
-import matplotlib.pyplot as plt
+    import matplotlib.pyplot as plt
 
 # Make a scatter plot: runtime on  x-axis, rating on y-axis and set c to ints
 plt.scatter(movies.runtime, movies.rating, c=ints)
