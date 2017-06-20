@@ -38,3 +38,31 @@ msg_bad = "That is not correct!"
 msg_success = "Exactly! The correlation is very weak though."
 test_mc(4, [msg_bad, msg_bad, msg_bad, msg_success])
 ```
+
+--- type:NormalExercise lang:python xp:100 skills:2 key:fabf30731a
+## Test
+
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{python}
+
+```
+
+*** =sample_code
+```{python}
+
+```
+
+*** =solution
+```{python}
+
+```
+
+*** =sct
+```{python}
+success_msg("Schrödinger conqueror")
+```
